@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.one;
 
 public class Circle implements Shape {
     private String color;

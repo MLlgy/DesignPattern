@@ -1,4 +1,4 @@
-package flyweight;
+package flyweight.one;
 
 /**
  * 享元模式
