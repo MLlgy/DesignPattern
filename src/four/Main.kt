@@ -1,5 +1,6 @@
 package four
 
+// 通过枚举获得单例
 fun main() {
     val enumSingleton = EnumSingleton.singletonInstance
     val enumSingleton_ = EnumSingleton.singletonInstance
