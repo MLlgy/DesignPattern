@@ -1,4 +1,4 @@
-package D_Singleton;
+package d_singleton;
 
 //
 public class LazySingleton {

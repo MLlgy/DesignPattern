@@ -1,4 +1,4 @@
-package C_Adapter
+package c_adapter
 
 interface ILogFileReader {
     fun readLogs(): List<String>

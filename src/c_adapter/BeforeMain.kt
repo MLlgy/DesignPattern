@@ -1,4 +1,4 @@
-package C_Adapter
+package c_adapter
 
 
 fun main() {

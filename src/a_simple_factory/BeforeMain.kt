@@ -1,4 +1,4 @@
-package A_Simple_Factory
+package a_simple_factory
 
 
 fun main(args: Array<String>) {

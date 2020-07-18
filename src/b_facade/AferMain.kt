@@ -1,4 +1,4 @@
-package B_Facade
+package b_facade
 
 // 使用简单工厂模式
 class MakerFactory {

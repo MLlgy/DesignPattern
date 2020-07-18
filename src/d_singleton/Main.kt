@@ -1,4 +1,4 @@
-package D_Singleton
+package d_singleton
 
 // 通过枚举获得单例
 fun main() {

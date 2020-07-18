@@ -1,4 +1,4 @@
-package C_Adapter
+package c_adapter
 
 interface ILogDBReader {
     fun createLog(dbLog: String)

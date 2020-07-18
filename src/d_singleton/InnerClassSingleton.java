@@ -1,4 +1,4 @@
-package D_Singleton;
+package d_singleton;
 
 /**
  * 饿汉式、懒汉式、双重检查加锁式都存在相应的缺点，而通过内部类的方式避免了它们的缺点。
