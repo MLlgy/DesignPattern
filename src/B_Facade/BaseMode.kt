@@ -1,4 +1,4 @@
-package two
+package B_Facade
 
 interface Maker {
     fun make(): String

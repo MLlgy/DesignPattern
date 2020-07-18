@@ -1,4 +1,4 @@
-package one
+package A_Simple_Factory
 
 interface Animal{
     fun eat():String

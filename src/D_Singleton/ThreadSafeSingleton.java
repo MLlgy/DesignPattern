@@ -1,4 +1,4 @@
-package four;
+package D_Singleton;
 
 /**
  * 对懒汉式获取单例的方式进行线程安全的优化，饿汉式为线程安全(JVM 保证了其只会被加载一遍，创建一个实例对象)
@@ -8,7 +8,7 @@ package four;
 public class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
     private ThreadSafeSingleton(){}
-      // one: 懒汉式
+      // A_Simple_Factory: 懒汉式
     public static ThreadSafeSingleton getInstanceOne(){
         // 在此处存在多个线程访问的情况，从而产生了多个实例变量，所以要对该方法进行线程安全的优化
         if(instance == null){
@@ -17,7 +17,7 @@ public class ThreadSafeSingleton {
         return  instance;
     }
 
-    // two: 对该方法添加 synchronized 关键字，会保证线程安全，但是这样会降低访问性能，而且每次访问都会判空，
+    // B_Facade: 对该方法添加 synchronized 关键字，会保证线程安全，但是这样会降低访问性能，而且每次访问都会判空，
     public static synchronized ThreadSafeSingleton getInstanceTwo(){
         if(instance == null){
             instance = new ThreadSafeSingleton();

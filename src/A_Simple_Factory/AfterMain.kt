@@ -1,4 +1,4 @@
-package one
+package A_Simple_Factory
 
 class Factory {
     companion object {
