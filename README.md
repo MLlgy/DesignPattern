@@ -10,3 +10,12 @@
 [3. 适配器模式](src/c_adapter/适配器模式.md)
 
 [4. 单例模式](src/d_singleton/单例模式.md)
+
+[5. 工厂方法模式](src/e_factory_method/工厂方法模式.md)
+
+[6. 抽象工厂模式](src/f_abstract_factory/抽象工厂模式.md)
+
+[7. 生成器模式](src/g_builder/生成器模式.md)
+
+[8. 原型模式](src/h_prototype/原型模式.md)
+
