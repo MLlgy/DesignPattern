@@ -6,13 +6,13 @@ interface ExportFile {
 
 class MdExportFile : ExportFile {
     override fun export(data: String) {
-        println("我将 ${data} 导出为 markdown 格式")
+        println("我将 $data 导出为 markdown 格式")
     }
 }
 
 class PdfExportFile : ExportFile {
     override fun export(data: String) {
-        println("我将 ${data} 导出为 pdf 格式")
+        println("我将 $data 导出为 pdf 格式")
     }
 }
 

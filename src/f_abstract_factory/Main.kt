@@ -32,18 +32,20 @@ class BrandWith24Pin : AbstractBrand() {
     }
 }
 
+// 抽象工厂类：提供创建一系列对象的方法
 interface AbstractProductFactory {
     fun createCpu(): AbstractCpu
     fun createBrand(): AbstractBrand
 }
 
-
+// 具体工厂类：创建相同规格的一系列产品 -- 12 引脚
 class ProductWith12PinFactory:AbstractProductFactory{
     override fun createCpu(): AbstractCpu  = CPUWith12Pin()
 
     override fun createBrand(): AbstractBrand = BrandWith12Pin()
 }
 
+// 24 引脚
 class ProductWith24PinFactory:AbstractProductFactory{
     override fun createCpu(): AbstractCpu  = CPUWith24Pin()
 
