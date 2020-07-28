@@ -13,12 +13,6 @@ interface Mediator{
  * 同事类的抽象类
  */
 abstract class Colleague(val mediator: Mediator){
-//    private var mediatorObject:Mediator? = null
-//    init {
-//        mediatorObject = mediator
-//    }
-
-//    fun getMediator():Mediator = mediator
 
 }
 
@@ -48,4 +42,14 @@ class ConcreteMediator:Mediator{
     override fun notifyColleague(colleague: Colleague) {
         // 当某个同事类发生变化，通常需要与其他同事交互，具体协调相应的同事类来实现协作行为
     }
+}
+
+fun main() {
+    val mediator = ConcreteMediator()
+
+    val concreteColleagueA = ConcreteColleagueA(mediator)
+    val concreteColleagueB = ConcreteColleagueB(mediator)
+
+
+
 }

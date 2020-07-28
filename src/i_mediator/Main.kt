@@ -1,5 +1,8 @@
 package i_mediator
 
+/**
+ * 同事类拥有的统一行为
+ */
 abstract class ColleagueAbstract(mediatorBrand: MediatorBrand) {
 }
 
@@ -60,6 +63,9 @@ class SoundCard(mediatorBrand: MediatorBrand) : ColleagueAbstract(mediatorBrand)
 
 }
 
+/**
+ * 中介类接口
+ */
 interface MediatorBrand {
     /**
      * 同事对象在自身改变时通知中介者的方法，让中介者负责与其他同事类的交互
