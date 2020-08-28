@@ -1,7 +1,5 @@
 package m_iterator
 
-import test.One
-
 /**
  * 迭代器接口
  *
